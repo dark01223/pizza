@@ -1,0 +1,43 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 48em) {
+
+   form 
+   {
+   }
+
+   fieldset
+   {
+    padding: 5px 2.5px;
+    width: auto;
+   }
+
+   ul 
+   {
+    padding: 0;
+   }
+
+   li 
+   {
+    margin-bottom: 20px;
+   }
+
+   .identity input 
+   {
+    width: fit-content;
+    max-width: 400px;
+    width: 95%;    
+   }
+
+   textarea
+   {
+    resize: none;
+    max-width: 400px;
+    width: 95%;
+   }
+
+  }
